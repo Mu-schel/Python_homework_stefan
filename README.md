@@ -1,2 +1,10 @@
-# Python_homework_stefan
-Programming home work for UE300160
+# Stefans python homework
+## Programming for UE300160
+
+### Data
+
+### misc
+
+### rosalind
+
+### ao25
