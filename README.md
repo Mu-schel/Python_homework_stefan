@@ -3,10 +3,11 @@
 Getting started with python.
 
 ### Data
+empty right now
 Containing all data sets, git ignores all files in here.
 
 ### misc
-Containing random stuff
+Contains notebooks of homework, lessons and some rosalind stuff
 
 ### rosalind
 Containing rosalind progress
