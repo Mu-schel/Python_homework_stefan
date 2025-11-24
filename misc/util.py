@@ -20,8 +20,6 @@ codon_dict = {
     'UGG': 'W',      'CGG': 'R',      'AGG': 'R',      'GGG': 'G'
 }
 
-
-
 """
 This is a function to read text files 
 into a list of lines, removing the 
@@ -35,3 +33,41 @@ def read_file_into_lines(file_path):
             cleaned = line.rstrip() #just get rid of new line characters 
             lines.append(cleaned)
     return lines
+
+"""
+A function to parse through a fasta file
+and return a dictionary with the ID and 
+the nucleotide sequence as items.
+"""
+def parse_fasta(lines_list):
+    current_sequence = ''
+    current_id = ''
+    sequences = {}
+
+    for line in lines_list:
+        # if line.startswith('>'):
+        if line[0] == '>':
+            sequences[current_id] = current_sequence
+            current_id = line[1:]
+            current_sequence = ''
+        else:
+            current_sequence = current_sequence + line
+
+    sequences[current_id] = current_sequence
+    del sequences['']
+    return sequences
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
