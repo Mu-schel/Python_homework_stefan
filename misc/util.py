@@ -12,11 +12,11 @@ codon_dict = {
     'UCG': 'S',      'CCG': 'P',      'ACG': 'T',      'GCG': 'A',
     'UAU': 'Y',      'CAU': 'H',      'AAU': 'N',      'GAU': 'D',
     'UAC': 'Y',      'CAC': 'H',      'AAC': 'N',      'GAC': 'D',
-    'UAA': 'Stop',   'CAA': 'Q',      'AAA': 'K',      'GAA': 'E',
-    'UAG': 'Stop',   'CAG': 'Q',      'AAG': 'K',      'GAG': 'E',
+    'UAA': None,     'CAA': 'Q',      'AAA': 'K',      'GAA': 'E',
+    'UAG': None,     'CAG': 'Q',      'AAG': 'K',      'GAG': 'E',
     'UGU': 'C',      'CGU': 'R',      'AGU': 'S',      'GGU': 'G',
     'UGC': 'C',      'CGC': 'R',      'AGC': 'S',      'GGC': 'G',
-    'UGA': 'Stop',   'CGA': 'R',      'AGA': 'R',      'GGA': 'G',
+    'UGA': None,     'CGA': 'R',      'AGA': 'R',      'GGA': 'G',
     'UGG': 'W',      'CGG': 'R',      'AGG': 'R',      'GGG': 'G'
 }
 
