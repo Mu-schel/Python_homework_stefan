@@ -3,3 +3,4 @@ rosalind_*
 __pycache__/
 .ipynb_checkpoints/
 !.gitignore
+AOC2025_1_input.txt
