@@ -4,3 +4,4 @@ __pycache__/
 .ipynb_checkpoints/
 !.gitignore
 AOC2025_1_input.txt
+2025_12_AOC_input.txt
